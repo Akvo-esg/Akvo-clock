@@ -1,15 +1,27 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 .5rem;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  height: 100vh;
+  width: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main::before {
+  content: "";
+  background-image: url(../public/bg1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }
 
 .footer {
@@ -39,11 +51,7 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
+
 
 .title,
 .description {
@@ -51,9 +59,11 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  color: rgb(10, 70, 70);
+  font-weight: 500;
 }
 
 .code {
