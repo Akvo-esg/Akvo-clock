@@ -28,7 +28,7 @@ a {
 }
 
 .frinapeLogo {
-  height: 190px;
+  height: 220px;
 }
 
 .content {
@@ -38,7 +38,7 @@ a {
 
 .counter {
   /* font-family: "Roboto Mono", monospace !important; */
-background-color: #fff7;
+background-color: #fff8;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -47,20 +47,22 @@ border-radius: 20px;
 font-size: 125px;
 font-weight: 525;
 color: rgb(6, 39, 39);
-
 }
 
 .akvoLogo {
-  height: 50px;
+  height: 70px;
 }
 
 .CO2 {
   font-size: 30px !important;
   font-weight: 550;
+  margin-bottom: 68px;
 }
 
 .number {
   font-family: "Roboto Mono", monospace !important;
+  font-weight: 600;
+  font-size: 150px;
 }
 
 .formBg { 

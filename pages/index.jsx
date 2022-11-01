@@ -85,7 +85,7 @@ export default function Home() {
                   <p className="number">
                     {formatNumber(counter.toFixed(tofixedNumber))}
                   </p>
-                  <p className='CO2 text-center ms-4' style={{ "marginBottom": "60px" }}>
+                  <p className='CO2 text-center ms-4'>
                     t CO<sub>2</sub>e
                   </p>
                 </div>
