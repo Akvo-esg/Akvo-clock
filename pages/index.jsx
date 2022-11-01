@@ -60,13 +60,13 @@ export default function Home() {
         <div className="content">
 
 
-          <div className="row mb-5 mt-3">
+          <div className="row ">
             <div className="col-12 d-flex justify-content-center">
               <img src="/FrinapeLogo.png" alt="" className='frinapeLogo' />
 
             </div>
           </div>
-          <div className="row my-5">
+          <div className="row my-4">
             <div className="col-12 d-flex justify-content-center counter">
               <div className="row">
                 <div className="col-12 d-flex justify-content-center">
@@ -93,7 +93,7 @@ export default function Home() {
 
 
             </div>
-            <div className="row pb-0" style={{ "marginTop": "100px" }}>
+            <div className="row mt-5" >
               <div className="col-12 d-flex justify-content-center">
                 <img src="/logo1.png" alt="" className='akvoLogo' />
               </div>

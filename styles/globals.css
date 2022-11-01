@@ -28,7 +28,7 @@ a {
 }
 
 .frinapeLogo {
-  height: 220px;
+  height: 250px;
 }
 
 .content {
@@ -38,7 +38,7 @@ a {
 
 .counter {
   /* font-family: "Roboto Mono", monospace !important; */
-background-color: #fff8;
+background-color: #fff9;
 display: flex;
 flex-direction: column;
 align-items: center;
